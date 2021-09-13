@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vision</title>
+</head>
+<style type="text/css">
+*
+{
+margin: 0;
+padding: 0;
+}
+body
+{
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #060c21;
+}
+.main
+{
+width: 300px;
+height: 400px;
+background-color: #060c21;
+position: relative;
+padding: 20px;
+}
+.main:before
+{
+content: '';
+position: absolute;
+top: -2px;
+left: -2px;
+right: -2px;
+bottom: -2px;
+background-color: #fff;
+z-index: -2;
+}
+.main:after
+{
+content: '';
+position: absolute;
+top: -2px;
+left: -2px;
+right: -2px;
+bottom: -2px;
+background-color: #fff;
+z-index: -2;
+filter: blur(40px);
+}
+.main:before,
+.main:after
+{
+background: linear-gradient(235deg,#89ff00,#060c21,#00bcd4);
+}
+.main h1
+{
+text-align: center;
+color: #fff;
+font-family: arial;
+}
+.main p
+{
+text-align: center;
+color: #fff;
+padding-top: 20px;
+font-family: arial;
+letter-spacing: 2px;
+line-height: 25px;
+}
+</style>
+<body>
+<div class="main">
+<h1>Vision</h1>
+<p>I am sure that of being a part of SheHacks programme is not gonna disappoint me . My vision is to complete my project in the required time and providing a good environment for my teammates. Also learning new things everyday and sharing that with everyone is something I am looking forward to do .</p>
+<a href="file:///D:/SheHack/index.html">
+    <button>Back</button>
+</a>
+</div>
+</body>
+</html>
